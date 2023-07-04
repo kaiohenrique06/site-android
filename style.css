@@ -1,0 +1,49 @@
+@charset 'UTF_8';
+
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@500&display=swap');
+
+@font-face {
+    font-family: andoid ;
+    src: url('fontes/idroid.otf');
+}
+h1{
+    font-family: 'Cinzel', serif;
+}
+body{
+    background-color: #D64045;
+    min-width: 400px;
+    max-width: 800px;
+}
+header{
+    background-image: linear-gradient(to bottom, #467599, #1D3354);
+    color: white;
+    margin: au;
+}
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.2em;
+}
+#ka{
+    font-family: andoid;
+    color: #9ED8DB;
+}
+h2{
+    font-family: andoid;
+    color: #9ED8DB;
+}
+div.vídeo{
+    position: relative;
+    background-color: #1D3354;
+    height: 0px;
+    margin-left: -20px;
+    margin-right: -20px;
+    margin-bottom: 15px;
+    padding-bottom: 59%;
+}
+div.video > iframe{
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+}
